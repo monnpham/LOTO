@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .container_login {
   margin: 0 auto;
 }
@@ -212,4 +214,177 @@
 
 .font-title td {
   padding-right: 10px;
+}
+
+.input {
+  width: 71px;
+  background-color: #FFD371;
+  height: 71px
+}
+
+.ant-form-item-explain-error {
+  position: absolute;
+  top: 31px;
+  left: 12px;
+  right: 0;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-col-5 {
+  --ant-display: block;
+  display: block;
+  display: var(--ant-display);
+  flex: 0 0 19.833333333333336%;
+  max-width: 19.833333333333336%;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-form-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* margin-bottom: 24px; */
+  /* vertical-align: top; */
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.sooo .ant-form-item-explain-error {
+  position: absolute;
+  top: 47px;
+  left: 18px;
+  right: 0;
+}
+
+.custom-input-number .ant-input-number-handler-wrap {
+  display: none;
+  /* Ẩn nút tăng/giảm */
+}
+
+.sooo Input {
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.centered-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-input-number .ant-input-number-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: inherit;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  width: 100%;
+  text-align: start;
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  outline: 0;
+  transition: all 0.2s linear;
+  appearance: textfield;
+  font-size: 32px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  /* Khoảng cách giữa các cột */
+}
+
+.board-cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.hinh {
+  position: absolute;
+}
+
+.so {
+  display: grid;
+  position: relative;
+  margin-left: 12px;
+
+}
+
+.so div {
+  flex: 1;
+  margin-right: 32px;
+  /* Khoảng cách giữa các phần tử */
+}
+
+.so div:last-child {
+  margin-right: 0;
+  /* Không có margin bên phải cho phần tử cuối cùng */
+}
+
+.btn-so {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: #FDD278;
+  margin: 5px;
+  margin-right: 9px;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.mt-62 {
+  margin-top: 14rem;
+}
+
+.btn-so.clicked,
+.btn-so.clicked h1 {
+  background-color: rgb(139, 120, 109);
+  /* Change the color for clicked buttons */
+}
+
+.container-so {
+  width: 912px;
+  margin: 0 auto;
+}
+
+.mt-mt {
+  margin-top: 182px;
+}
+
+.mt-t {
+  margin-top: 34px;
+}
+
+.tenn {
+  color: #FECD87;
+  font-family: 'Bevan', serif;
+  font-weight: 500;
+  font-size: 20px;
 }

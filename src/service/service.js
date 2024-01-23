@@ -8,7 +8,19 @@ import { https } from "./config";
 //     return https.post("/api/QuanLyNguoiDung/DangKy", valueForm);
 //   },
 // };
-  
+
+export let userService = {
+  getList: () => {
+    return https.get(`/api/Status/getAll`);
+  },
+  postList: () => {
+    return https.post(`/api/Status/getAll`);
+  }
+}
+
+
+
+
 // export let movieService = {
 //   getList: (page, perPage) => {
 //     return https.get(
@@ -36,5 +48,7 @@ import { https } from "./config";
 //     );
 //   },
 // };
+
+
 
 
